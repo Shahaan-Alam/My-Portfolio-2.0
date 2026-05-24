@@ -159,3 +159,15 @@ footer {
     padding: 20px;
     background-color: rgb(32, 31, 31);
 }
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't cause horizontal scrolling */
+}
+
+/* Also apply box-sizing to everything else for safety */
+*, *::before, *::after {
+    box-sizing: inherit;
+}
